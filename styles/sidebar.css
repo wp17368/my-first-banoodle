@@ -1,0 +1,48 @@
+.sidebar1{
+  position:fixed;
+  backdrop-filter:blur(3px);
+  top:60px;
+  left:10px;
+  bottom:0;
+  width:50px;
+}
+.sidebar{
+  position:fixed;
+  padding-top:10px;
+  top:60px;
+  left:10px;
+  bottom:0;
+  width:50px;
+  justify-content:center;
+  z-index:1;
+}
+
+  .sidebar-link{
+    position:relative;
+    background-color:rgb(31, 31, 31);
+    height:50px;
+    width:50px;
+    margin-bottom:10px;
+    border-style:none;
+    border-radius:25px;
+  }
+  .sidebar-link .tooltip{
+    position:absolute;
+    background:rgb(51, 51, 51);
+    color:gray;
+    width:120px;
+    padding:5px;
+    border-radius:3px;
+    opacity:0;
+    margin-left:50px;
+  }
+  .sidebar-link:hover{
+    background-color:transparent;
+    transition:0.2s;
+    cursor:pointer;
+  }
+    .sidebar-link img{
+      width:50px;
+      border-style:none;
+      border-radius:25px;
+    }

@@ -1,0 +1,54 @@
+      p {
+        font-family: roboto;
+        margin-top:0;
+        margin-bottom:0;
+      }
+      .video-title{
+        font-weight:bold;
+        font-size: 25px;
+        width:400px;
+        line-height:30px;
+        margin-bottom:5px;
+      }
+    
+      .video-stats{
+        font-size:15px;
+        color:rgb(108, 108, 108);
+        width:400px;
+        margin-bottom:25px;
+      }
+      .username{
+        line-height:0px;
+        font-size:15px;
+        color:rgb(108, 108, 108);
+        margin-bottom:25px;
+        width:400px;
+      }
+      .video-description{
+        font-size:15px;
+        color:rgb(108, 108, 108);
+        line-height:18px;
+        width:400px;
+        margin-bottom: 100px;
+      }
+      .dumb-questions{
+        margin-bottom: 50px;
+        font-size: 13px;
+        color:white;
+        background-color:brown;
+    
+        text-align:center;
+    
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+    
+      .google-link {
+        margin-left:12px;
+      }
+      .google-link:hover{
+        cursor:pointer;
+        text-decoration:underline;
+      }
